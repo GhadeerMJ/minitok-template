@@ -176,3 +176,4 @@ def load_spec(source: str | Path) -> TokenSpec:
         tokens.append(TokenClass(name=name, regex=regex, skip=skip))
 
     return TokenSpec(tokens=tokens)
+
