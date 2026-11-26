@@ -182,3 +182,4 @@ def compile_regex(regex: str) -> NFA:
         builder.transitions.setdefault(s, {})
     states = set(range(builder.next_state))
     return NFA(states, builder.alphabet, builder.transitions, start, {accept})
+
