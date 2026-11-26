@@ -242,3 +242,4 @@ def scan(dfa: DFA, spec: "TokenSpec", text: str) -> list[Token]:
         position = last_end
 
     return output
+  
